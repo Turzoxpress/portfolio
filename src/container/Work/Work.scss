@@ -303,7 +303,6 @@
 .app__work_experience_title {
   font-size: 18px;
   text-align: left;
-  color: rgb(79, 77, 77);
 }
 
 .app__experinece_platform_p {
@@ -311,4 +310,17 @@
   color: #191918d3;
   text-align: left;
   width: 100%;
+}
+
+.app__experinece_years_p {
+  font-size: 16px;
+  color: #191918d3;
+  text-align: left;
+  width: 100%;
+  text-align: center;
+}
+
+.app__experinece_span {
+  width: 100%;
+  text-align: center;
 }

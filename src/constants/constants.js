@@ -210,10 +210,22 @@ module.exports = {
 
   experience: [
     {
+      designation: "Full Stack Software Engineer (Team Lead)",
+      company: "Babylon Resources Limited",
+      joining: "2022-01-01T00:00:00.738Z",
+      left: "now",
+    },
+    {
+      designation: "Full Stack Software Engineer",
+      company: "Babylon Resources Limited",
+      joining: "2019-03-01T00:00:00.738Z",
+      left: "2021-12-30T00:00:00.738Z",
+    },
+    {
       designation: "Software Engineer",
       company: "Babylon Resources Limited",
-      joining: "2017-08-03T08:22:34.738Z",
-      left: "2024-03-12T08:22:34.738Z",
+      joining: "2017-07-01T00:00:00.738Z",
+      left: "2019-02-28T00:00:00.738Z",
     },
   ],
 

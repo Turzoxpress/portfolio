@@ -17,21 +17,29 @@ import moment from "moment";
 
 const Experience = () => {
   const [experience, setExperience] = useState(constants.experience);
+  let tempExpYears = 0; // [, settotalExperienceYears] = useState(0);
+  const [totalExperienceYears, settotalExperienceYears] = useState(0);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    settotalExperienceYears(tempExpYears);
+  }, []);
 
   const dateConverter = (startDate, endDate) => {
-    console.log("Start Date : " + startDate + "  End date : " + endDate);
+    let tempEndDate = endDate;
+    if (tempEndDate === "now") {
+      tempEndDate = new Date();
+    }
+    console.log("Start Date : " + startDate + "  End date : " + tempEndDate);
     const date1 = moment(startDate);
-    const date2 = moment(endDate);
+    const date2 = moment(tempEndDate);
 
     console.log("Start Date : " + date1 + "  End date : " + date2);
 
     let result = moment(date2).diff(date1, "days");
     //var ms = moment(date2).diff(moment(date1));
     let years = (result / 365).toFixed(1);
+    tempExpYears = tempExpYears + parseFloat(years);
     return years;
-    return date1;
   };
 
   return (
@@ -42,31 +50,55 @@ const Experience = () => {
         <motion.div className="app__skills-list app_skills_title">
           <div className="container">
             <h2 className="head-text">Experience</h2>
+            <span className="badge rounded-pill bg-success p-4 m-4 app__experinece_span">
+              <h3 className="">
+                {" "}
+                Total Experience : <strong>{totalExperienceYears}</strong> years
+              </h3>
+            </span>
+
             <div className="row">
               {experience.map((items, i) => (
                 <div className="card m-2">
                   <div className="card-body profile-card pt-4 d-flex flex-column">
                     <h3 className="app__work_experience_title">
-                      <strong>{items.company}</strong>
+                      <strong>{items.designation}</strong>
                     </h3>
 
                     <div className="">
                       {" "}
                       <p className="app__work_platform_p">
-                        <strong>{items.designation}</strong>
+                        <strong>{items.company}</strong>
                       </p>
                       <p className="app__experinece_platform_p">
                         <strong>Joined: </strong>
                         {moment(items.joining).format("DD-MM-YYYY")}
                       </p>
-                      <p className="app__experinece_platform_p">
-                        <strong>Left: </strong>
-                        {moment(items.left).format("DD-MM-YYYY")}
-                      </p>
-                      <p className="app__experinece_platform_p">
-                        <strong>Experience: </strong>
-                        {dateConverter(items.joining, items.left)} years
-                      </p>
+                      {items.left === "now" ? (
+                        <>
+                          <p className="app__experinece_platform_p">
+                            <strong>Left: </strong>
+                            Working now...
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <p className="app__experinece_platform_p">
+                            <strong>Left: </strong>
+                            {moment(items.left).format("DD-MM-YYYY")}
+                          </p>
+                        </>
+                      )}
+                      <div className="social-links m-1 align-center">
+                        <p className="app__experinece_years_p">
+                          <strong>Experience: </strong>
+                          <b>
+                            <strong>
+                              {dateConverter(items.joining, items.left)} years
+                            </strong>
+                          </b>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -77,24 +109,56 @@ const Experience = () => {
 
         <motion.div className="app__skills-list app_skills_title">
           <div className="container">
+            <h2 className="head-text">Experience</h2>
+            <span className="badge rounded-pill bg-success p-4 m-4 app__experinece_span">
+              <h3 className="">
+                {" "}
+                Total Experience : <strong>{totalExperienceYears}</strong> years
+              </h3>
+            </span>
+
             <div className="row">
               {experience.map((items, i) => (
                 <div className="card m-2">
-                  <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
-                    <h3 className="app__work_item_title">
-                      <strong>
-                        <u>{items.designation}</u>
-                      </strong>
+                  <div className="card-body profile-card pt-4 d-flex flex-column">
+                    <h3 className="app__work_experience_title">
+                      <strong>{items.designation}</strong>
                     </h3>
 
-                    <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
+                    <div className="">
                       {" "}
                       <p className="app__work_platform_p">
                         <strong>{items.company}</strong>
                       </p>
-                      <p className="app__work_platform_p">
-                        <strong>{items.joining}</strong>
+                      <p className="app__experinece_platform_p">
+                        <strong>Joined: </strong>
+                        {moment(items.joining).format("DD-MM-YYYY")}
                       </p>
+                      {items.left === "now" ? (
+                        <>
+                          <p className="app__experinece_platform_p">
+                            <strong>Left: </strong>
+                            Working now...
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <p className="app__experinece_platform_p">
+                            <strong>Left: </strong>
+                            {moment(items.left).format("DD-MM-YYYY")}
+                          </p>
+                        </>
+                      )}
+                      <div className="social-links m-1 align-center">
+                        <p className="app__experinece_years_p">
+                          <strong>Experience: </strong>
+                          <b>
+                            <strong>
+                              {dateConverter(items.joining, items.left)} years
+                            </strong>
+                          </b>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
