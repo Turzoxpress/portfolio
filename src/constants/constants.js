@@ -275,7 +275,7 @@ module.exports = {
       technology: "NodeJS, NextJS, MongoDB, Google Cloud",
       url: "https://www.eventby.xyz/organizer/login/",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/eventby_project.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/eventby_project.png",
       description:
         "EventBy is a social media platform for hosting and organizing in-person and virtual activities, gatherings, and events for people and communities of similar interests, hobbies, and professions.",
     },
@@ -295,7 +295,7 @@ module.exports = {
       technology: "Python, Django, ReactJS, MongoDB, Google Cloud",
       url: "https://github.com/Turzoxpress/EmployeeDailyAttendaceByFaceDetectionBackend",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/employee_face_detection.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/employee_face_detection.png",
       description:
         "Smart Employee Attendance solution by face detection to connect various types of analytical tools easily!",
     },
@@ -326,7 +326,7 @@ module.exports = {
       technology: "NodeJS, ReactJS,Python-Django, MongoDB, Google Cloud",
       url: "https://learnerscafe.com/",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/learnerscafe.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/learnerscafe.png",
       description:
         "Learnerscafe LMS, a SaaS based e-learning management solution. It facilitates distance learning, and improve efficiency of learners. School, College, Universities, public and private organizations can be benefited by Learnerscafe LMS, a fully integrated and robust system",
     },
@@ -337,7 +337,7 @@ module.exports = {
       technology: "NodeJS, ReactJS, MongoDB, Google Cloud",
       url: "https://github.com/Turzoxpress/task-tracker-app-react-frontend",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/task_tracker.PNG",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/task_tracker.PNG",
       description:
         "This is a fullstack application with complete frontend and backend.",
     },
@@ -379,7 +379,7 @@ module.exports = {
       technology: "NodeJS, JWT, MongoDB, Google Cloud",
       url: "https://github.com/Turzoxpress/rest-api-with-node-express-mongodb-with-jwt-authentication-within-30-minutes",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/jwt_flow.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/jwt_flow.png",
       description:
         "REST API with Node.js, Express & MongoDB with JWT authentication within 30 minutes!",
     },
@@ -428,7 +428,7 @@ module.exports = {
       technology: "Swift, SwifUI, XCode",
       url: "https://apps.apple.com/app/id1627446374",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/prottay_ios.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/prottay_ios.png",
       description:
         "A Roster Management to fulfill all your needs to manage Mass number of workers. Add shifts, transfer between shifts and also identify if anyone is missing shifts very easily.",
     },
@@ -438,7 +438,7 @@ module.exports = {
       technology: "Java, Android Studio",
       url: "https://play.google.com/store/apps/details?id=com.bgl.bglattendancenew&hl=en&gl=US",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/prottay_android.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/prottay_android.png",
       description:
         "A Roster Management to fulfill all your needs to manage Mass number of workers. Add shifts, transfer between shifts and also identify if anyone is missing shifts very easily.",
     },
@@ -478,7 +478,7 @@ module.exports = {
       technology: "Java, Android Studio",
       url: "https://github.com/Turzoxpress/SMS_Server_Android",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/mobile_sms_server.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/mobile_sms_server.png",
       description:
         "Turn your Android phone into a SMS Gateway. Send and receive messages programmatically through your phone using API service.",
     },
@@ -498,7 +498,7 @@ module.exports = {
       technology: "Java, Android Studio",
       url: "https://github.com/Turzoxpress/BulkSMSSender",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/bulk_sms.png",
+        "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/bulk_sms.png",
       description:
         "This app will help you to send multiple/Bulk SMS. Just save your phone numbers in a text file like : +88018342***",
     },
