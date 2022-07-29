@@ -1,21 +1,19 @@
-import React from 'react'
-
+import React from "react";
+import constants from "../constants/constants";
 
 const NavigationDots = ({ active }) => {
-    return (
-        <div className='app__navigation'>
+  return (
+    <div className="app__navigation">
+      {constants.navigation_items.map((item, index) => (
+        <a
+          href={`#${item}`}
+          key={item + index}
+          className="app__navigation-dot"
+          style={active === item ? { backgroundColor: "#313BAC" } : {}}
+        />
+      ))}
+    </div>
+  );
+};
 
-            {['home', 'work', 'about', 'more', 'skills', 'contact'].map((item, index) => (
-
-                <a href={`#${item}`} key={item + index}
-                    className='app__navigation-dot'
-                    style={active === item ? { backgroundColor: '#313BAC' } : {}} />
-
-
-            ))}
-
-        </div>
-    )
-}
-
-export default NavigationDots
+export default NavigationDots;

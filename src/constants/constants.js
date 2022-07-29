@@ -2,6 +2,15 @@ module.exports = {
   email: "turzoxpress@gmail.com",
   phone: "+880 1834261758",
 
+  navigation_items: [
+    "home",
+    "skills",
+    "about",
+    "experience & education",
+    "projects",
+    "contact",
+  ],
+
   backendSkills: [
     {
       name: "NodeJS - Express",
@@ -212,20 +221,38 @@ module.exports = {
     {
       designation: "Full Stack Software Engineer (Team Lead)",
       company: "Babylon Resources Limited",
-      joining: "2022-01-01T00:00:00.738Z",
+      joining: "2021-07-01T00:00:00.738Z",
       left: "now",
     },
     {
       designation: "Full Stack Software Engineer",
       company: "Babylon Resources Limited",
       joining: "2019-03-01T00:00:00.738Z",
-      left: "2021-12-30T00:00:00.738Z",
+      left: "2021-06-30T00:00:00.738Z",
     },
     {
       designation: "Software Engineer",
       company: "Babylon Resources Limited",
       joining: "2017-07-01T00:00:00.738Z",
       left: "2019-02-28T00:00:00.738Z",
+    },
+  ],
+
+  education: [
+    {
+      certificate: "Bachelor of Science(BSc) in Computer Science & Engineering",
+      institute: "Ahsanullah University of Science and Technology",
+      passing_year: "2016-01-01T00:00:00.738Z",
+    },
+    {
+      certificate: "Higher Secondary Certificate (GCE A Level equivalent)",
+      institute: "Dhaka City College",
+      passing_year: "2012-01-01T00:00:00.738Z",
+    },
+    {
+      certificate: "Secondary School Certificate (GCE O Level equivalent)",
+      institute: "Sonapur Ali Akbar High School",
+      passing_year: "2010-01-01T00:00:00.738Z",
     },
   ],
 

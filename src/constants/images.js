@@ -39,8 +39,10 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import turzo_large_profile from "../assets/profile_large.jpg";
+import turzo_logo from "../assets/floating_nav_logo.png";
 
 export default {
+  turzo_logo,
   turzo_large_profile,
   email,
   mobile,

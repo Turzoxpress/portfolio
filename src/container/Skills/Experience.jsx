@@ -20,6 +20,8 @@ const Experience = () => {
   let tempExpYears = 0; // [, settotalExperienceYears] = useState(0);
   const [totalExperienceYears, settotalExperienceYears] = useState(0);
 
+  const [education, seteducation] = useState(constants.education);
+
   useEffect(() => {
     settotalExperienceYears(tempExpYears);
   }, []);
@@ -109,56 +111,27 @@ const Experience = () => {
 
         <motion.div className="app__skills-list app_skills_title">
           <div className="container">
-            <h2 className="head-text">Experience</h2>
-            <span className="badge rounded-pill bg-success p-4 m-4 app__experinece_span">
-              <h3 className="">
-                {" "}
-                Total Experience : <strong>{totalExperienceYears}</strong> years
-              </h3>
-            </span>
+            <h2 className="head-text">Education</h2>
 
             <div className="row">
-              {experience.map((items, i) => (
+              {education.map((items, i) => (
                 <div className="card m-2">
                   <div className="card-body profile-card pt-4 d-flex flex-column">
                     <h3 className="app__work_experience_title">
-                      <strong>{items.designation}</strong>
+                      <strong>{items.certificate}</strong>
                     </h3>
 
                     <div className="">
                       {" "}
                       <p className="app__work_platform_p">
-                        <strong>{items.company}</strong>
+                        <strong>{items.institute}</strong>
                       </p>
-                      <p className="app__experinece_platform_p">
-                        <strong>Joined: </strong>
-                        {moment(items.joining).format("DD-MM-YYYY")}
+                      <p className="app__work_platform_p">
+                        Passed :{" "}
+                        <strong>
+                          {moment(items.passing_year).format("DD-MM-YYYY")}
+                        </strong>
                       </p>
-                      {items.left === "now" ? (
-                        <>
-                          <p className="app__experinece_platform_p">
-                            <strong>Left: </strong>
-                            Working now...
-                          </p>
-                        </>
-                      ) : (
-                        <>
-                          <p className="app__experinece_platform_p">
-                            <strong>Left: </strong>
-                            {moment(items.left).format("DD-MM-YYYY")}
-                          </p>
-                        </>
-                      )}
-                      <div className="social-links m-1 align-center">
-                        <p className="app__experinece_years_p">
-                          <strong>Experience: </strong>
-                          <b>
-                            <strong>
-                              {dateConverter(items.joining, items.left)} years
-                            </strong>
-                          </b>
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -174,6 +147,6 @@ const Experience = () => {
 
 export default AppWrap(
   MotionWrap(Experience, "app__experience"),
-  "experience",
+  "experience & education",
   "app__primarybg"
 );
