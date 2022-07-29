@@ -26,7 +26,14 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="button">
-        <a href={Resume}>
+        {/* <a href={Resume}>
+          <button className="resume__btn">Resume</button>
+        </a> */}
+        <a
+          href={constants.resume_link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="resume__btn">Resume</button>
         </a>
       </div>

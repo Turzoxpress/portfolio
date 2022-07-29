@@ -1,6 +1,7 @@
 module.exports = {
   email: "turzoxpress@gmail.com",
   phone: "+880 1834261758",
+  resume_link: "https://turzoxpress.github.io/resume/",
 
   navigation_items: [
     "home",
