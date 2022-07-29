@@ -1,0 +1,49 @@
+.app-head {
+    font-family: 'Eczar', serif;
+    font-weight: 700 !important;
+
+}
+
+.app-para {
+    color: var(--secondary-color);
+    font-family: 'Eczar', serif;
+}
+
+p {
+    font-family: 'Mulish', sans-serif !important;
+
+}
+
+.link-p {
+    color: var(--secondary-color);
+}
+
+p {
+    svg {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 15px;
+        color: var(--secondary-color)
+    }
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2430af;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+        color: var(--white-color[])
+    }
+}
