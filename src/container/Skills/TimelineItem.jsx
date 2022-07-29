@@ -15,8 +15,8 @@ import images from "../../constants/images";
 const TimelineItem = ({ data }) => {
   console.log("Data : " + data.text);
   return (
-    <>
-      {data.length > 0 ? (
+    <div>
+      {data ? (
         <div className="timeline-item">
           <div className="timeline-item-content">
             <span className="tag" style={{ background: "#018f69" }}>
@@ -35,7 +35,7 @@ const TimelineItem = ({ data }) => {
       ) : (
         <></>
       )}
-    </>
+    </div>
   );
 };
 

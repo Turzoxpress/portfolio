@@ -210,19 +210,10 @@ module.exports = {
 
   experience: [
     {
-      text: "Wrote my first blog post ever on Medium",
-      date: "March 03 2017",
-      category: {
-        tag: "medium",
-        color: "#018f69",
-      },
-      link: {
-        url: "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-        text: "Read more",
-      },
-    },
-    {
-      // Another object with data
+      designation: "Software Engineer",
+      company: "Babylon Resources Limited",
+      joining: "2017-08-03T08:22:34.738Z",
+      left: "2024-03-12T08:22:34.738Z",
     },
   ],
 
