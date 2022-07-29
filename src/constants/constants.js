@@ -267,6 +267,7 @@ module.exports = {
       description:
         "Professional Backend Development Training instructed by me. I made this video tutorial series based on NodeJS to empower our future programmers.",
     },
+
     {
       name: "EventBy",
       platform: "Web",
@@ -288,6 +289,16 @@ module.exports = {
         "Thinking of creating a file hosting server like Dropbox or 4shared or Mediafire? This projects will help you a lot and its built with NodeJS.",
     },
     {
+      name: "Smart Attendance with Face Detection",
+      platform: "Web, Mobile",
+      technology: "Python, Django, ReactJS, MongoDB, Google Cloud",
+      url: "https://github.com/Turzoxpress/EmployeeDailyAttendaceByFaceDetectionBackend",
+      imagePath:
+        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/employee_face_detection.png",
+      description:
+        "Smart Employee Attendance solution by face detection to connect various types of analytical tools easily!",
+    },
+    {
       name: "Rest API server with NodeJS & MongoDB",
       platform: "Web",
       technology: "NodeJS, MongoDB, Google Cloud",
@@ -299,12 +310,12 @@ module.exports = {
     },
 
     {
-      name: "Resume (This Site)",
+      name: "Portfolio (This Site)",
       platform: "Web",
       technology: "NodeJS, ReactJS, MongoDB, Google Cloud",
-      url: "https://turzoxpress.github.io/resume/",
+      url: "https://github.com/Turzoxpress/portfolio",
       imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/resume.png",
+        "https://github.com/Turzoxpress/portfolio/raw/master/screenshots/portfolio.png",
       description:
         "Resume website made with ReactJS, Bootsrap(Frontend) and NodeJS,Express,MongoDB(Backend).",
     },
@@ -372,16 +383,6 @@ module.exports = {
         "REST API with Node.js, Express & MongoDB with JWT authentication within 30 minutes!",
     },
 
-    {
-      name: "Smart Attendance with Face Detection",
-      platform: "Web, Mobile",
-      technology: "Python, Django, ReactJS, MongoDB, Google Cloud",
-      url: "https://github.com/Turzoxpress/EmployeeDailyAttendaceByFaceDetectionBackend",
-      imagePath:
-        "https://raw.githubusercontent.com/Turzoxpress/resume/master/src/assets/employee_face_detection.png",
-      description:
-        "Smart Employee Attendance solution by face detection to connect various types of analytical tools easily!",
-    },
     {
       name: "Data Structure & Algorithms",
       platform: "Windows, Linux, iOS",
