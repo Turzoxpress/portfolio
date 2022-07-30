@@ -1,24 +1,25 @@
 import React from "react";
 import { BsTwitter, BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa";
+import constants from "../constants/constants";
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <a href="https://www.linkedin.com/in/mahbubur-rahman-turzo-483773ab">
+        <a href={constants.linkedin_link}>
           <FaLinkedin />
         </a>
       </div>
 
       <div>
-        <a href="https://github.com/Turzoxpress?tab=repositories">
+        <a href={constants.github_link}>
           <FaGithub />
         </a>
       </div>
 
       <div>
-        <a href="https://www.facebook.com/MahbuburRahmanTurzo/">
+        <a href={constants.facebook_link}>
           <BsFacebook />
         </a>
       </div>

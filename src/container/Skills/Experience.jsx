@@ -129,7 +129,8 @@ const Experience = () => {
                       <p className="app__work_platform_p">
                         Passed :{" "}
                         <strong>
-                          {moment(items.passing_year).format("DD-MM-YYYY")}
+                          {/* {moment(items.passing_year).format("DD-MM-YYYY")} */}
+                          {moment(items.passing_year).format("YYYY")}
                         </strong>
                       </p>
                     </div>

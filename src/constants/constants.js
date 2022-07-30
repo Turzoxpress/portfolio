@@ -4,6 +4,7 @@ module.exports = {
   resume_link: "https://turzoxpress.github.io/resume/",
   linkedin_link: "https://www.linkedin.com/in/turzoxpress/",
   github_link: "https://github.com/Turzoxpress?tab=repositories",
+  facebook_link: "https://www.facebook.com/mrturzobd/",
 
   navigation_items: [
     "home",
@@ -209,7 +210,7 @@ module.exports = {
         "I am always thirsty to learn something new or need to learn when necessary.",
     },
     {
-      pointName: "Determined about Deadlines",
+      pointName: "Aware of Deadlines",
       description:
         "I am able to remain calm and focused no matter how difficult the task. I always try to stay positive and find a way out. I am sure that everything happens for a reason and that any mistake can be fixed.",
     },
