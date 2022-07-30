@@ -264,12 +264,12 @@ module.exports = {
     {
       name: "Professional Backend Training NodeJS",
       platform: "Web",
-      technology: "NodeJS,Mongoose, MongoDB, Multer,JWT, bCrypt, Google Cloud",
+      technology: "NodeJS,Mongoose, MongoDB, Multer,JWT, bcrypt, Google Cloud",
       url: "https://www.youtube.com/watch?v=9gMoukN81Ow&list=PLp6lX102mPy4A7ajKYu0oxMr9zpdVepvy",
       imagePath:
         "https://github.com/Turzoxpress/NodeJS-Professional-Training-MongoDB/raw/master/screenshots/cover.jpg",
       description:
-        "Professional Backend Development Training instructed by me. I made this video tutorial series based on NodeJS to empower our future programmers.",
+        "Professional Backend Development Training, instructed by me. I made this video tutorial series based on NodeJS to empower our future programmers.",
     },
 
     {
@@ -290,7 +290,7 @@ module.exports = {
       imagePath:
         "https://github.com/Turzoxpress/NodejsExpressFileUploader/raw/master/screenshots/cloud_upload.gif",
       description:
-        "Thinking of creating a file hosting server like Dropbox or 4shared or Mediafire? This projects will help you a lot and its built with NodeJS.",
+        "Thinking of creating a file hosting server like Dropbox or 4shared or Mediafire? This project will help you a lot and its built with NodeJS.",
     },
     {
       name: "Smart Attendance with Face Detection",
@@ -302,16 +302,6 @@ module.exports = {
       description:
         "Smart Employee Attendance solution by face detection to connect various types of analytical tools easily!",
     },
-    {
-      name: "Rest API server with NodeJS & MongoDB",
-      platform: "Web",
-      technology: "NodeJS, MongoDB, Google Cloud",
-      url: "https://github.com/Turzoxpress/Node_REST_API_Server_Express_MongoDB",
-      imagePath:
-        "https://github.com/Turzoxpress/Node_REST_API_Server_Express_MongoDB/raw/master/screenshots/node.gif",
-      description:
-        "Do you want to create REST API server with Node.js, Express Framwork & MongoDB database? This repo will guide you!",
-    },
 
     {
       name: "Portfolio (This Site)",
@@ -321,7 +311,26 @@ module.exports = {
       imagePath:
         "https://github.com/Turzoxpress/portfolio/raw/master/screenshots/portfolio.png",
       description:
-        "Resume website made with ReactJS, Bootsrap(Frontend) and NodeJS,Express,MongoDB(Backend).",
+        "Portfolio website made with ReactJS, Bootsrap(Frontend) and NodeJS,Express,MongoDB(Backend).",
+    },
+    {
+      name: "Modern Resume",
+      platform: "Web",
+      technology: "NodeJS, ReactJS, MongoDB, Google Cloud",
+      url: "https://turzoxpress.github.io/resume/",
+      imagePath:
+        "https://github.com/Turzoxpress/resume/raw/master/screenshots/s1.png",
+      description: "Modern Resume built with React.",
+    },
+    {
+      name: "Rest API server with NodeJS & MongoDB",
+      platform: "Web",
+      technology: "NodeJS, MongoDB, Google Cloud",
+      url: "https://github.com/Turzoxpress/Node_REST_API_Server_Express_MongoDB",
+      imagePath:
+        "https://github.com/Turzoxpress/Node_REST_API_Server_Express_MongoDB/raw/master/screenshots/node.gif",
+      description:
+        "Do you want to create a REST API server with NodeJS, Express Framework & MongoDB database? This repo will guide you!",
     },
     {
       name: "Learnerscafe LMS",
@@ -342,7 +351,7 @@ module.exports = {
       imagePath:
         "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/task_tracker.PNG",
       description:
-        "This is a fullstack application with complete frontend and backend.",
+        "This is a short version of Jira, but has the capability to accelerate the development of the project much faster! This is a full stack application with complete front-end and back-end.",
     },
 
     {
@@ -353,7 +362,7 @@ module.exports = {
       imagePath:
         "https://user-images.githubusercontent.com/50833200/64965521-5c4aac80-d8c7-11e9-9732-9f156ffd7462.png",
       description:
-        "Inventory app is an application about managing a products, Here we can create, edit, delete and search a product.",
+        "Inventory app is an application about managing products, Here we can create, edit, delete and search a product.",
     },
     {
       name: "Smart Invoice",
@@ -384,7 +393,7 @@ module.exports = {
       imagePath:
         "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/jwt_flow.png",
       description:
-        "REST API with Node.js, Express & MongoDB with JWT authentication within 30 minutes!",
+        "Create a REST API server with NodeJS, Express & MongoDB with JWT authentication within 30 minutes!",
     },
 
     {
@@ -393,7 +402,8 @@ module.exports = {
       technology: "Python",
       url: "https://www.youtube.com/watch?v=uQTzf0UWVrA&list=PLp6lX102mPy45JUhN3z4S75-p9iOkhv22",
       imagePath: "https://img.youtube.com/vi/WK1hedbf9Fw/maxresdefault.jpg",
-      description: "Data Structure & Algorithms with Python tutorial series.",
+      description:
+        "Data Structure & Algorithms with Python tutorial series, instruted by me.",
     },
     {
       name: "Python Django REST API backend with MongoDB Boilerplate",
@@ -413,18 +423,9 @@ module.exports = {
       imagePath:
         "https://github.com/Turzoxpress/PythonDjangoRestAPIwithMongoDB/raw/master/screenshots/database_migration.JPG",
       description:
-        "Are you plaining to work with a Python Django project? Just clone this repo and start your work instantly!",
+        "Are you planning to work with a Python Django project? Just clone this repo and start your work instantly!",
     },
-    {
-      name: "MVVM Practical Example with SwiftUI",
-      platform: "iOS",
-      technology: "Swift, SwifUI, XCode",
-      url: "https://github.com/Turzoxpress/MVVM_Example_SwiftUI",
-      imagePath:
-        "https://camo.githubusercontent.com/7cb375079db3956746f49107809d294b83c6e7ad62739a80323ab8ca9eb7118d/68747470733a2f2f692e696d6775722e636f6d2f766d346a704b572e706e67",
-      description:
-        "I have implemented a simple real-life example of most popular design patttern, MVVM. I kept the source code simple, just to show you the MVVM design pattern! This app will call a simple GET api from The Movie Database - TMDb and shows the popular moivies posters and names in a gridview.",
-    },
+
     {
       name: "Prottay HRMS iOS",
       platform: "iOS, Mobile",
@@ -444,6 +445,16 @@ module.exports = {
         "https://raw.githubusercontent.com/Turzoxpress/portfolio/master/src/assets/prottay_android.png",
       description:
         "A Roster Management to fulfill all your needs to manage Mass number of workers. Add shifts, transfer between shifts and also identify if anyone is missing shifts very easily.",
+    },
+    {
+      name: "MVVM Practical Example with SwiftUI",
+      platform: "iOS",
+      technology: "Swift, SwifUI, XCode",
+      url: "https://github.com/Turzoxpress/MVVM_Example_SwiftUI",
+      imagePath:
+        "https://camo.githubusercontent.com/7cb375079db3956746f49107809d294b83c6e7ad62739a80323ab8ca9eb7118d/68747470733a2f2f692e696d6775722e636f6d2f766d346a704b572e706e67",
+      description:
+        "I have implemented a simple real-life example of most popular design patttern, MVVM. I kept the source code simple, just to show you the MVVM design pattern! This app will call a simple GET api from The Movie Database - TMDb and shows the popular moivies posters and names in a gridview.",
     },
     {
       name: "My Tutor - আমার শিক্ষক",
